@@ -6,7 +6,7 @@
 }}
 
 SELECT *
-FROM ANALYTICS_DB.DBT_SCHEMA.MODEL_EMPLOYEE
+FROM {{ source('raw','MODEL_EMPLOYEE') }}
 
 {% if is_incremental() %}
 

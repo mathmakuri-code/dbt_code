@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: Order_category_model
+    columns:
+      - name: ORDER_ID
+        tests:
+          - not_null
+          - unique

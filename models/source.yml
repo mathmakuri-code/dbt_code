@@ -7,3 +7,4 @@ sources:
 
     tables:
       - name: MODEL_EMPLOYEE
+      - name: orders
